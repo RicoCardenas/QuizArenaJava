@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #451952;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.identproyect.quizarena.GameScreen">
+   <StackPane layoutX="202.0" layoutY="81.0" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #fff; -fx-background-radius: 50px; -fx-border-color: #000; -fx-border-radius: 50px; -fx-border-width: 2px; -fx-border-insets: -1px;">
+      <children>
+          <ImageView fx:id="playerCharacterImage" fitHeight="100" fitWidth="100" preserveRatio="true" />
+      </children>
+   </StackPane>
+
+    <VBox alignment="CENTER" layoutX="752.0" layoutY="282.0" prefHeight="457.0" prefWidth="416.0" spacing="11.0" style="-fx-background-color: AE445A; -fx-background-radius: 30px; -fx-border-radius: 30px;">
+        <Button onAction="#handleMathButtonClick" prefHeight="95.0" prefWidth="378.0" style="-fx-background-radius: 30px 30px 5px 5px; -fx-background-color: #662549;" text="Matemáticas" textAlignment="CENTER">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Showcard Gothic" size="37.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.03030307365186287" startX="1.0" startY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.6823529601097107" green="0.2666666805744171" blue="0.3529411852359772" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.9529411792755127" green="0.6235294342041016" blue="0.3529411852359772" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill></Button>
+        <Button onAction="#handleHistoryButtonClick" prefHeight="95.0" prefWidth="378.0" style="-fx-background-radius: 5px; -fx-background-color: #662549;" text="Historia" textAlignment="CENTER">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+         <font>
+            <Font name="Showcard Gothic" size="37.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.03030307365186287" startX="1.0" startY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.6823529601097107" green="0.2666666805744171" blue="0.3529411852359772" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.9529411792755127" green="0.6235294342041016" blue="0.3529411852359772" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill></Button>
+        <Button onAction="#handleSpanishButtonClick" prefHeight="95.0" prefWidth="378.0" style="-fx-background-radius: 5px; -fx-background-color: #662549;" text="Español" textAlignment="CENTER">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+         <font>
+            <Font name="Showcard Gothic" size="37.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.03030307365186287" startX="1.0" startY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.6823529601097107" green="0.2666666805744171" blue="0.3529411852359772" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.9529411792755127" green="0.6235294342041016" blue="0.3529411852359772" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill></Button>
+        <Button onAction="#handleScienceButtonClick" prefHeight="95.0" prefWidth="378.0" style="-fx-background-color: #662549; -fx-background-radius: 5px 5px 30px 30px;" text="CIENCIAS" textAlignment="CENTER">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+         <font>
+            <Font name="Showcard Gothic" size="37.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.03030307365186287" startX="1.0" startY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.6823529601097107" green="0.2666666805744171" blue="0.3529411852359772" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.9529411792755127" green="0.6235294342041016" blue="0.3529411852359772" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill></Button>
+    </VBox>
+</AnchorPane>
