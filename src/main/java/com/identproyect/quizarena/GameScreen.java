@@ -60,8 +60,21 @@ public class GameScreen {
     @FXML
     private void handleHistoryButtonClick() {
         // Lógica para el botón de Historia
-        System.out.println("Has seleccionado Historia");
-        // Aquí puedes abrir la pantalla de Historia o ejecutar alguna otra acción
+        try {
+            // Abre la ventana de selección de personajes
+            FXMLLoader production = new FXMLLoader(getClass().getResource("level-screen-history.fxml"));
+            Parent root = production.load();
+
+            Stage characterSelectionStage = new Stage();
+            characterSelectionStage.setTitle("Selección de Personajes");
+            characterSelectionStage.setScene(new Scene(root));
+            characterSelectionStage.show();
+
+            LevelScreenHistory control = production.getController();
+            control.openFullScreenH();  // Abre en pantalla completa
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     @FXML
