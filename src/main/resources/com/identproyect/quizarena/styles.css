@@ -101,7 +101,6 @@
 }
 
 /*game-screen*/
-
 .game-screen-panel {
     -fx-background-color: #451952;
     -fx-pref-height: 1080px;
@@ -193,6 +192,33 @@
 }
 
 .button-level:hover {
+    -fx-border-color: #fff;
+    -fx-background-color: #fff;
+    -fx-font-family: roboto;
+    -fx-cursor: HAND;
+}
+
+/*level-screen-history*/
+.level-screen-history-panel{
+    -fx-background-color: #3498DB;
+    -fx-pref-height: 1080px;
+    -fx-pref-width: 1920px;
+}
+
+.button-level-history {
+    -fx-font-family: 'Playpen Sans', cursive;
+    -fx-font-size: 17px;
+    -fx-pref-height: 43px;
+    -fx-background-radius: 23px;
+    -fx-border-radius: 23px;
+    -fx-border-insets: -1px;
+    -fx-border-width: 2px;
+    -fx-border-color: #000;
+    -fx-spacing:40px;
+    -fx-pref-width : 44px;
+}
+
+.button-level-history:hover {
     -fx-border-color: #fff;
     -fx-background-color: #fff;
     -fx-font-family: roboto;

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane styleClass="level-screen-history-panel" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.identproyect.quizarena.LevelScreenHistory" stylesheets="@styles.css">
+    <Button fx:id="level1History" layoutX="489.0" layoutY="214.0" styleClass="button-level-history"
+            text="1"/>
+    <Button fx:id="level2History" layoutX="861.0" layoutY="103.0" styleClass="button-level-history"
+            text="2"/>
+    <Button fx:id="level3History" layoutX="917.0" layoutY="408.0" styleClass="button-level-history"
+            text="3"/>
+    <Button fx:id="level4History" layoutX="600.0" layoutY="342.0" styleClass="button-level-history"
+            text="4"/>
+    <Button fx:id="level5History" layoutX="368.0" layoutY="271.0" styleClass="button-level-history"
+            text="5"/>
+    <Button fx:id="level6History" layoutX="618.0" layoutY="103.0" styleClass="button-level-history"
+            text="6"/>
+    <Button fx:id="level7History" layoutX="332.0" layoutY="324.0" styleClass="button-level-history"
+            text="7"/>
+    <Button fx:id="level8History" layoutX="671.0" layoutY="184.0" styleClass="button-level-history"
+            text="8"/>
+    <Button fx:id="level9History" layoutX="350.0" layoutY="103.0" styleClass="button-level-history"
+            text="9"/>
+    <Button fx:id="level10History" layoutX="218.0" layoutY="220.0" styleClass="button-level-history"
+            text="10"/>
+</AnchorPane>
