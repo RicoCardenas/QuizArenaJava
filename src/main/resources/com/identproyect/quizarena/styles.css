@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&display=swap');
+/*hello-view*/
+.hello-view-panel {
+    -fx-background-color: #451952;
+    -fx-pref-height: 1080px;
+    -fx-pref-width: 1920px;
+}
+
+.father-box {
+    -fx-padding: 20px;
+    -fx-alignment: center;
+    -fx-spacing:20px;
+}
+
+.father-box .title--father-box {
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+    -fx-background-color: #662549;
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+    -fx-border-color: #000;
+    -fx-border-width: 8px;
+    -fx-border-insets: -2px;
+    -fx-text-fill: linear-gradient(to right, rgba(174,68,90,1) 0%, rgba(243,159,90,1) 100%);
+    -fx-font-size: 96px;
+    -fx-font-family: 'Showcard Gothic';
+    -fx-pref-height: 274px;
+    -fx-pref-width: 778px;
+}
+
+.father-box .button--father-box {
+    -fx-text-alignment: center;
+    -fx-background-color: #C23373;
+    -fx-background-radius: 15px;
+    -fx-border-radius: 15px;
+    -fx-border-color: #000;
+    -fx-border-insets: -1px;
+    -fx-border-width: 2px;
+    -fx-text-fill: #ffa6ce;
+    -fx-font-size: 31px;
+    -fx-font-family: 'Showcard Gothic';
+    -fx-cursor: HAND;
+    -fx-pref-height: 89px;
+    -fx-pref-width: 454px;
+}
+
+/*character-selection*/
+
+.character-selection-panel {
+    -fx-background-color: #451952;
+    -fx-pref-height: 1080px;
+    -fx-pref-width: 1920px;
+}
+
+.box-character-selection {
+    -fx-padding: 20px;
+    -fx-alignment: center;
+    -fx-spacing:20px;
+}
+
+.title--character-selection {
+    -fx-text-alignment: center;
+    -fx-text-fill: #fff;
+    -fx-alignment: center;
+    -fx-font-family: 'Tw Cen MT Condensed';
+    -fx-font-size: 54px;
+    -fx-pref-height: 94px;
+    -fx-pref-width: 497px;
+}
+
+.container--character-selection {
+    -fx-alignment: center;
+    -fx-spacing:20px;
+}
+
+.container--character-selection .internal--container {
+    -fx-alignment: center;
+}
+
+.container--character-selection .internal--container .image--container {
+    -fx-border-color: #000;
+    -fx-border-width: 2px;
+    -fx-background-color: linear-gradient(to bottom, #ad5389, #3c1053);
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+    -fx-border-insets: -1px;
+    -fx-pref-height: 150px;
+    -fx-pref-width: 140px;
+}
+
+.container--character-selection .internal--container .button--container {
+    -fx-font-family: 'Showcard Gothic';
+    -fx-pref-width: 100px;
+    -fx-pref-height: 35px;
+    -fx-background-radius: 15px;
+    -fx-border-radius: 15px;
+    -fx-border-insets: -2px;
+    -fx-border-width: 2px;
+    -fx-border-color: #000;
+    -fx-background-color: #E2C799;
+}
+
+/*game-screen*/
+
+.game-screen-panel {
+    -fx-background-color: #451952;
+    -fx-pref-height: 1080px;
+    -fx-pref-width: 1920px;
+}
+
+.character-image {
+    -fx-pref-height: 100px;
+    -fx-pref-width : 100px;
+    -fx-background-color: #fff;
+    -fx-background-radius: 50px;
+    -fx-border-color: #000;
+    -fx-border-radius: 50px;
+    -fx-border-width: 2px;
+    -fx-border-insets: -1px;
+    -fx-effect: dropshadow(three-pass-box, rgba(125,45,125,0.8), 20, 0.3, 0, 0);
+}
+
+.subjects-container {
+    -fx-alignment: center;
+    -fx-background-color: AE445A;
+    -fx-background-radius: 30px;
+    -fx-border-radius: 30px;
+    -fx-spacing: 11px;
+    -fx-pref-height: 457px;
+    -fx-pref-width : 416px;
+}
+
+.subjects-container .button-game-top {
+    -fx-font-family: 'Showcard Gothic';
+    -fx-font-size: 37px;
+    -fx-background-radius: 30px 30px 5px 5px;
+    -fx-background-color: #662549;
+    -fx-text-alignment: center;
+    -fx-pref-height: 95px;
+    -fx-pref-width : 378px;
+    -fx-text-fill: linear-gradient(to right, rgba(174,68,90,1) 0%, rgba(243,159,90,1) 100%);
+ }
+ .subjects-container .button-game-top:hover{
+    -fx-cursor: HAND;
+ }
+
+ .subjects-container .button-game-mid {
+    -fx-font-family: 'Showcard Gothic';
+    -fx-font-size: 37px;
+    -fx-background-radius: 5px;
+    -fx-background-color: #662549;
+    -fx-text-alignment: center;
+    -fx-pref-height: 95px;
+    -fx-pref-width : 378px;
+    -fx-text-fill: linear-gradient(to right, rgba(174,68,90,1) 0%, rgba(243,159,90,1) 100%);
+ }
+ .subjects-container .button-game-mid:hover{
+    -fx-cursor: HAND;
+ }
+
+ .subjects-container .button-game-bottom {
+    -fx-font-family: 'Showcard Gothic';
+    -fx-font-size: 37px;
+    -fx-background-radius: 5px 5px 30px 30px;
+    -fx-background-color: #662549;
+    -fx-text-alignment: center;
+    -fx-pref-height: 95px;
+    -fx-pref-width : 378px;
+    -fx-text-fill: linear-gradient(to right, rgba(174,68,90,1) 0%, rgba(243,159,90,1) 100%);
+ }
+ .subjects-container .button-game-bottom:hover{
+    -fx-cursor: HAND;
+ }
+
+/*level-screen-mathematics*/
+.level-screen-mathematics-panel {
+    -fx-background-color: #3498DB;
+    -fx-pref-height: 1080px;
+    -fx-pref-width: 1920px;
+}
+
+.button-level {
+    -fx-font-family: 'Playpen Sans', cursive;
+    -fx-font-size: 17px;
+    -fx-background-radius: 23px;
+    -fx-border-radius: 23px;
+    -fx-border-insets: -1px;
+    -fx-border-width: 2px;
+    -fx-border-color: #000;
+    -fx-spacing:40px;
+    -fx-pref-height: 43px;
+    -fx-pref-width : 44px;
+}
+
+.button-level:hover {
+    -fx-border-color: #fff;
+    -fx-background-color: #fff;
+    -fx-font-family: roboto;
+    -fx-cursor: HAND;
+}

@@ -93,22 +93,18 @@ public class CharacterSelection{
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("game-screen.fxml"));
             Parent root = loader.load();
-
             // Obtén una instancia del controlador de GameScreen
             GameScreen gameScreenController = loader.getController();
             gameScreenController.setPlayerCharacter(selectedCharacter);
-
             // Crea una nueva escena y muéstrala en una nueva ventana
             Scene scene = new Scene(root);
             Stage stage = new Stage();
             stage.setScene(scene);
             stage.show();
-
             // Cierra la ventana de selección de personajes
             ((Stage) characterImage1.getScene().getWindow()).close();
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
-
 }

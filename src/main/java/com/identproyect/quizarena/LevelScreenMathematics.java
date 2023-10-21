@@ -39,4 +39,6 @@ public class LevelScreenMathematics {
         level9.setOnAction(e -> System.out.println("cuanto es 10+10"));
         level10.setOnAction(e -> System.out.println("cuanto es 11+11"));
     }
+    public void openFullScreen() {
+    }
 }

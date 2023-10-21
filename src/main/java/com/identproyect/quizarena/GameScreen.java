@@ -5,11 +5,9 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.shape.Circle;
-import javafx.stage.Screen;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -47,7 +45,7 @@ public class GameScreen {
             characterSelectionStage.setScene(new Scene(root));
             characterSelectionStage.show();
 
-            CharacterSelection controller = loader.getController();
+            LevelScreenMathematics controller = loader.getController();
             controller.openFullScreen();  // Abre en pantalla completa
 
             //controller.setHelloController(this);  // Establece el controlador de HelloController
@@ -93,5 +91,4 @@ public class GameScreen {
         Circle clip = new Circle(this.characterImage.getFitWidth() / 2, this.characterImage.getFitHeight() / 2, this.characterImage.getFitWidth() / 2);
         this.characterImage.setClip(clip);
     }
-
 }

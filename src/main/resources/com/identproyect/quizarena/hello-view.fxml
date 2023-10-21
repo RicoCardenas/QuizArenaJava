@@ -1,48 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
-<?import javafx.scene.paint.*?>
-<?import javafx.scene.text.*?>
 
-<StackPane prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #451952;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.identproyect.quizarena.HelloController">
-
-    <VBox alignment="CENTER" spacing="20.0">
-        <padding>
-            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-        </padding>
-
-        <Label fx:id="welcomeText" alignment="CENTER" prefHeight="274.0" prefWidth="778.0" style="-fx-background-color: #662549; -fx-background-radius: 20px; -fx-border-radius: 20px; -fx-border-color: #000; -fx-border-width: 8px; -fx-border-insets: -2px;" text="Quiz Arena" textAlignment="CENTER">
-            <font>
-                <Font name="Showcard Gothic" size="96.0" />
-            </font>
-         <textFill>
-            <LinearGradient endX="1.0" endY="0.06723484848484862" startX="1.0" startY="1.0">
-               <stops>
-                  <Stop>
-                     <color>
-                        <Color red="0.6823529601097107" green="0.2666666805744171" blue="0.3529411852359772" />
-                     </color>
-                  </Stop>
-                  <Stop offset="1.0">
-                     <color>
-                        <Color red="0.9529411792755127" green="0.6235294342041016" blue="0.3529411852359772" />
-                     </color>
-                  </Stop>
-               </stops>
-            </LinearGradient>
-         </textFill>
-        </Label>
-
-        <Button onAction="#startGame" prefHeight="89.0" prefWidth="454.0" style="-fx-background-color: #C23373; -fx-background-radius: 15px; -fx-border-radius: 15px; -fx-border-color: #000; -fx-border-insets: -1px; -fx-border-width: 2px;" text="INICIAR JUEGO" textAlignment="CENTER" textFill="#ffa6ce">
-            <font>
-                <Font name="Showcard Gothic" size="31.0" />
-            </font>
-         <cursor>
-            <Cursor fx:constant="HAND" />
-         </cursor>
-        </Button>
-    </VBox>
+<StackPane styleClass="hello-view-panel" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.identproyect.quizarena.HelloController" stylesheets="@styles.css">
+   <VBox styleClass="father-box" >
+      <Label styleClass="title--father-box" fx:id="welcomeText" text="Quiz Arena"/>
+      <Button styleClass="button--father-box" onAction="#startGame" text="INICIAR JUEGO"/>
+   </VBox>
 </StackPane>
