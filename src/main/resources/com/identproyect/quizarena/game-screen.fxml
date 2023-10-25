@@ -4,20 +4,20 @@
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane styleClass="game-screen-panel" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.identproyect.quizarena.GameScreen" stylesheets="@styles.css">
-   <StackPane styleClass="character-image" layoutX="202.0" layoutY="81.0">
-      <ImageView fx:id="playerCharacterImage" fitHeight="100" fitWidth="100" preserveRatio="true"/>
+<AnchorPane styleClass="game-screen-panel" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.identproyect.quizarena.GameScreen">
+   <StackPane styleClass="character-image" layoutX="25.0" layoutY="25.0">
+      <ImageView fx:id="playerCharacterImage" fitHeight="100" fitWidth="100" preserveRatio="true" />
+   </StackPane>
+   <StackPane prefHeight="457.0" prefWidth="417.0" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0">
+               <VBox styleClass="subjects-container">
+                  <Button onAction="#handleMathButtonClick" styleClass="button-game-top" text="Matemáticas" />
+      
+                  <Button onAction="#handleHistoryButtonClick" styleClass="button-game-mid" text="Historia" />
+      
+                  <Button onAction="#handleSpanishButtonClick" styleClass="button-game-mid" text="Español" />
+      
+                  <Button onAction="#handleScienceButtonClick" styleClass="button-game-bottom" text="CIENCIAS" />
+               </VBox>
    </StackPane>
 
-   <VBox layoutX="752.0" layoutY="282.0" styleClass="subjects-container" >
-
-      <Button onAction="#handleMathButtonClick" text="Matemáticas" styleClass="button-game-top"/>
-
-      <Button onAction="#handleHistoryButtonClick" text="Historia" styleClass="button-game-mid"/>
-
-      <Button onAction="#handleSpanishButtonClick" text="Español" styleClass="button-game-mid"/>
-
-      <Button onAction="#handleScienceButtonClick" text="CIENCIAS" styleClass="button-game-bottom"/>
-
-   </VBox>
 </AnchorPane>

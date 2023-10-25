@@ -2,26 +2,23 @@
 
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
 
-<AnchorPane styleClass="level-screen-mathematics-panel" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.identproyect.quizarena.LevelScreenMathematics" stylesheets="@styles.css">
-   <Button fx:id="level1" layoutX="489.0" layoutY="214.0" styleClass="button-level"
-           text="1"/>
-   <Button fx:id="level2" layoutX="861.0" layoutY="103.0" styleClass="button-level"
-           text="2"/>
-   <Button fx:id="level3" layoutX="917.0" layoutY="408.0" styleClass="button-level"
-           text="3"/>
-   <Button fx:id="level4" layoutX="600.0" layoutY="342.0" styleClass="button-level"
-           text="4"/>
-   <Button fx:id="level5" layoutX="368.0" layoutY="271.0" styleClass="button-level"
-           text="5"/>
-   <Button fx:id="level6" layoutX="618.0" layoutY="103.0" styleClass="button-level"
-           text="6"/>
-   <Button fx:id="level7" layoutX="332.0" layoutY="324.0" styleClass="button-level"
-           text="7"/>
-   <Button fx:id="level8" layoutX="671.0" layoutY="184.0" styleClass="button-level"
-           text="8"/>
-   <Button fx:id="level9" layoutX="350.0" layoutY="103.0" styleClass="button-level"
-           text="9"/>
-   <Button fx:id="level10" layoutX="218.0" layoutY="220.0" styleClass="button-level"
-           text="10"/>
+<AnchorPane  styleClass="level-screen-mathematics-panel" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.identproyect.quizarena.LevelScreenMathematics">
+   <StackPane AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0">
+      <ImageView pickOnBounds="true" preserveRatio="true" fitHeight="1024" fitWidth="768" >
+            <Image url="@../../../images/FONDO_JUEGO.jpg" />
+      </ImageView>
+   </StackPane>
+   <Button fx:id="level1" layoutX="489.0" layoutY="214.0" styleClass="button-level" text="1" />
+   <Button fx:id="level2" layoutX="861.0" layoutY="103.0" styleClass="button-level" text="2" />
+   <Button fx:id="level3" layoutX="917.0" layoutY="408.0" styleClass="button-level" text="3" />
+   <Button fx:id="level4" layoutX="600.0" layoutY="342.0" styleClass="button-level" text="4" />
+   <Button fx:id="level5" layoutX="368.0" layoutY="271.0" styleClass="button-level" text="5" />
+   <Button fx:id="level6" layoutX="618.0" layoutY="103.0" styleClass="button-level" text="6" />
+   <Button fx:id="level7" layoutX="332.0" layoutY="324.0" styleClass="button-level" text="7" />
+   <Button fx:id="level8" layoutX="671.0" layoutY="184.0" styleClass="button-level" text="8" />
+   <Button fx:id="level9" layoutX="350.0" layoutY="103.0" styleClass="button-level" text="9" />
+   <Button fx:id="level10" layoutX="218.0" layoutY="220.0" styleClass="button-level" text="10" />
 </AnchorPane>

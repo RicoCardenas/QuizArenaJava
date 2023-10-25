@@ -2,8 +2,8 @@
 /*hello-view*/
 .hello-view-panel {
     -fx-background-color: #451952;
-    -fx-pref-height: 1080px;
-    -fx-pref-width: 1920px;
+    -fx-min-width:1024px;
+    -fx-min-height:768px;
 }
 
 .father-box {
@@ -48,8 +48,8 @@
 
 .character-selection-panel {
     -fx-background-color: #451952;
-    -fx-pref-height: 1080px;
-    -fx-pref-width: 1920px;
+    -fx-min-width: 1024px;
+    -fx-min-height: 768px;
 }
 
 .box-character-selection {
@@ -103,13 +103,15 @@
 /*game-screen*/
 .game-screen-panel {
     -fx-background-color: #451952;
-    -fx-pref-height: 1080px;
-    -fx-pref-width: 1920px;
+    -fx-min-width: 1024px;
+    -fx-min-height: 768px;
 }
 
 .character-image {
     -fx-pref-height: 100px;
     -fx-pref-width : 100px;
+    -fx-max-width:100px;
+    -fx-max-height:100px;
     -fx-background-color: #fff;
     -fx-background-radius: 50px;
     -fx-border-color: #000;
@@ -127,6 +129,8 @@
     -fx-spacing: 11px;
     -fx-pref-height: 457px;
     -fx-pref-width : 416px;
+    -fx-max-width : 416px;
+    -fx-max-height: 457px
 }
 
 .subjects-container .button-game-top {
@@ -173,9 +177,8 @@
 
 /*level-screen-mathematics*/
 .level-screen-mathematics-panel {
-    -fx-background-color: #3498DB;
-    -fx-pref-height: 1080px;
-    -fx-pref-width: 1920px;
+    -fx-min-width: 1024px;
+    -fx-min-height: 768px;
 }
 
 .button-level {
@@ -200,9 +203,8 @@
 
 /*level-screen-history*/
 .level-screen-history-panel{
-    -fx-background-color: #3498DB;
-    -fx-pref-height: 1080px;
-    -fx-pref-width: 1920px;
+    -fx-min-width: 1024px;
+    -fx-min-height: 768px;
 }
 
 .button-level-history {

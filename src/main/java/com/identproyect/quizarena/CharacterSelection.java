@@ -14,6 +14,8 @@ public class CharacterSelection{
 
     private HelloController helloController;
 
+
+
     // Método para establecer el controlador de HelloController
     public void setHelloController(HelloController helloController) {
         this.helloController = helloController;
@@ -101,6 +103,8 @@ public class CharacterSelection{
             Stage stage = new Stage();
             stage.setScene(scene);
             stage.show();
+            //Pantalla completa
+            stage.setFullScreen(true);
             // Cierra la ventana de selección de personajes
             ((Stage) characterImage1.getScene().getWindow()).close();
         } catch (IOException e) {

@@ -21,7 +21,8 @@ public class HelloController {
             characterSelectionStage.show();
 
             CharacterSelection controller = loader.getController();
-            controller.openFullScreen();  // Abre en pantalla completa
+
+            characterSelectionStage.setFullScreen(true);
 
             controller.setHelloController(this);  // Establece el controlador de HelloController
 

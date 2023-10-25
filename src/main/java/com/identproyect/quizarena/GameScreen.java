@@ -1,6 +1,7 @@
 package com.identproyect.quizarena;
 
 
+import javafx.embed.swing.JFXPanel;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -47,6 +48,7 @@ public class GameScreen {
 
             LevelScreenMathematics controller = loader.getController();
             controller.openFullScreen();  // Abre en pantalla completa
+            characterSelectionStage.setFullScreen(true);
 
             //controller.setHelloController(this);  // Establece el controlador de HelloController
 
@@ -71,7 +73,8 @@ public class GameScreen {
             characterSelectionStage.show();
 
             LevelScreenHistory control = production.getController();
-            control.openFullScreenH();  // Abre en pantalla completa
+            characterSelectionStage.setFullScreen(true);
+
         } catch (IOException e) {
             e.printStackTrace();
         }
