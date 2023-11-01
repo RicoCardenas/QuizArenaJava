@@ -38,9 +38,9 @@ public class CharacterSelection{
     @FXML
     public void initialize() {
         // Cargar las imágenes de los personajes
-        Image image1 = new Image(getClass().getResourceAsStream("/images/quizQuieto.png"));
-        Image image2 = new Image(getClass().getResourceAsStream("/images/Circulo.png"));
-        Image image3 = new Image(getClass().getResourceAsStream("/images/Equiz.png"));
+        Image image1 = new Image(getClass().getResourceAsStream("/images/magoquieto.png"));
+        Image image2 = new Image(getClass().getResourceAsStream("/images/vikingograndequieto.png"));
+        Image image3 = new Image(getClass().getResourceAsStream("/images/marcianitogrande.png"));
 
         // Asignar las imágenes a los ImageView
         characterImage1.setImage(image1);

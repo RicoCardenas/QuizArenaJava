@@ -5,11 +5,11 @@ import javafx.scene.image.Image;
 import java.net.URL;
 
 public class Character {
-    static URL url = Character.class.getResource("/images/quizQuieto.png");
+    static URL url = Character.class.getResource("/images/magoquieto.png");
     static Image image1 = new Image(url.toString());
-    static URL url1 = Character.class.getResource("/images/Circulo.png");
+    static URL url1 = Character.class.getResource("/images/vikingograndequieto.png");
     static Image image2 = new Image(url1.toString());
-    static URL url2 = Character.class.getResource("/images/Equiz.png");
+    static URL url2 = Character.class.getResource("/images/marcianitogrande.png");
     static Image image3 = new Image(url2.toString());
     public static final Character CHARACTER_1 = new Character("Personaje 1", image1, 100, 20);
 
@@ -65,11 +65,11 @@ public class Character {
     public String getImagePath() {
         // Devuelve la ruta de la imagen para este personaje
         if (this == CHARACTER_1) {
-            return "/images/quizQuieto.png";
+            return "/images/magoquieto.png";
         } else if (this == CHARACTER_2) {
-            return "/images/Circulo.png";
+            return "/images/vikingograndequieto.png";
         } else if (this == CHARACTER_3) {
-            return "/images/Equiz.png";
+            return "/images/marcianitogrande.png";
         }
         return null; // Maneja otros casos según sea necesario
     }
